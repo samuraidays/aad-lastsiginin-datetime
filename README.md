@@ -6,5 +6,5 @@ AzureADの最終サインイン日時を取得する
 
 2. テナントID、クライアントID、クライアントキーを環境変数として設定する
 
-3. 実行
+3. 実行  
     `python getLastSignInDateTime.py`
