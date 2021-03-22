@@ -67,9 +67,9 @@ def get_user_last_signin(access_token):
         data = res1.json()['value']
         for index, item in enumerate(data):
             if item.get('signInActivity') is None:
-                print(str(index+1) + ':' + item['userPrincipalName'] + '    ' + 'No-signInActivity')
+                print(str(index+1) + ';' + item['userPrincipalName'] + ';' + 'No-SignInActivity')
             else:
-                print(str(index+1) + ':' + item['userPrincipalName'] + '    ' + item['signInActivity']['lastSignInDateTime'])
+                print(str(index+1) + ';' + item['userPrincipalName'] + ';' + item['signInActivity']['lastSignInDateTime'])
         return res1.json()['value']
     except KeyError :
         print(res1)
