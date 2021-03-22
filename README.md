@@ -7,4 +7,6 @@ AzureADの最終サインイン日時を取得する
 2. テナントID、クライアントID、クライアントキーを環境変数として設定する
 
 3. 実行  
-    `python getLastSignInDateTime.py`
+    `python getLastSignInDateTime.py`  
+    
+4. 結果をスプレッドシートに貼り付けて区切り文字を;(セミコロン)で列を区切る
