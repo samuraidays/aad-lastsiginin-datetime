@@ -19,3 +19,11 @@ python getLastSignInDateTime.py
 ```
 
 4. 結果をスプレッドシートに貼り付けて区切り文字を;(セミコロン)で列を区切る
+
+```
+$ python getLastSignInDateTime.py                        
+1;XXXX@XXXX.com;2022-02-09T01:35:52Z
+2;XXXX@XXXX.com;2022-02-08T23:44:01Z
+3;XXXX@XXXX.com;2022-02-08T21:50:02Z
+4;XXXX@XXXX.com;2022-02-04T01:15:03Z
+```
